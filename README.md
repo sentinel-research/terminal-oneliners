@@ -15,3 +15,5 @@ Each episode: a dark-terminal card with the command + a one-line
 explanation. 1080p, ~20s, silent (captions carry the content).
 
 > Also being posted to YouTube Shorts (channel pending Google cred).
+
+| ep03 | Top 10 disk hogs in one command | `find / -type f -size +100M 2>/dev/null \| xargs du -h \| sort -h \| tail` | [watch](ep03-disk-hogs.mp4) |
