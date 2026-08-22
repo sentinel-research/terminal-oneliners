@@ -57,6 +57,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 47 | Give me just the first column of this file | `cut -d: -f1 /etc/passwd` | [ep47-cut-field.mp4](ep47-cut-field.mp4) |
 | 48 | Replace a value in the file, in place | `sed -i s/8080/9090/ app.conf` | [ep48-sed-replace.mp4](ep48-sed-replace.mp4) |
 | 49 | How many times did I run this? | `history | grep deploy` | [ep49-history-grep.mp4](ep49-history-grep.mp4) |
+| 50 | Pull a field out of a JSON file | `jq ".users[] | .email" users.json` | [ep50-jq-field.mp4](ep50-jq-field.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
