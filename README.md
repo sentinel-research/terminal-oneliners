@@ -61,6 +61,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 51 | What is the HTTP status of each endpoint? | `curl -so /dev/null -w "%{http_code}\n" x.io x.io/v2` | [ep51-curl-status.mp4](ep51-curl-status.mp4) |
 | 52 | Encode this into something safe for a URL | `echo "hello world" | base64` | [ep52-base64-encode.mp4](ep52-base64-encode.mp4) |
 | 53 | Print just the username and shell columns | `awk -F: '{print $1, $7}' /etc/passwd` | [ep53-awk-cols.mp4](ep53-awk-cols.mp4) |
+| 54 | Bundle a whole folder into one file | `zip -r backup.zip cfg` | [ep54-zip-folder.mp4](ep54-zip-folder.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
