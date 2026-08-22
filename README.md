@@ -48,6 +48,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 38 | Which process is eating the most CPU? | `ps -eo pid,pcpu,pmem,comm --sort=-pcpu` | [ep38-ps-pcpu.mp4](ep38-ps-pcpu.mp4) |
 | 39 | Run a command on a remote box, no password | `ssh -i key user@host uptime` | [ep39-ssh-key.mp4](ep39-ssh-key.mp4) |
 | 40 | How long is this document, in words? | `wc -w README.md` | [ep40-wc-w.mp4](ep40-wc-w.mp4) |
+| 41 | What have I actually committed lately? | `git log --oneline -5` | [ep41-git-log.mp4](ep41-git-log.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
