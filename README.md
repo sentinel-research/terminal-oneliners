@@ -40,6 +40,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 30 | What did I just run? | `history | tail` | [ep30-history-tail.mp4](ep30-history-tail.mp4) |
 | 31 | How much RAM is actually free? | `free -h` | [ep31-free-h.mp4](ep31-free-h.mp4) |
 | 32 | Permissions, size, and timestamps of a file | `stat app.log` | [ep32-stat-log.mp4](ep32-stat-log.mp4) |
+| 33 | Did the download come through intact? | `md5sum release.tar.gz` | [ep33-md5sum.mp4](ep33-md5sum.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
