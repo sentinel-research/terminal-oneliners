@@ -53,6 +53,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 43 | Which ports is this box listening on? | `ss -tlnp` | [ep43-ss-ports.mp4](ep43-ss-ports.mp4) |
 | 44 | What OS and kernel is this box running? | `uname -a` | [ep44-uname-a.mp4](ep44-uname-a.mp4) |
 | 45 | What is the current time, UTC and epoch? | `date -u; date +%s` | [ep45-date-utc.mp4](ep45-date-utc.mp4) |
+| 46 | How do I sort these lines by number? | `sort -rn prices.txt` | [ep46-sort-rn.mp4](ep46-sort-rn.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
