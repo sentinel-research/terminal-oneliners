@@ -31,6 +31,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 21 | Pull fields out of a delimited file | `cut -d: -f1,3 /etc/passwd` | [ep21-cut-fields.mp4](ep21-cut-fields.mp4) |
 | 22 | Count how often each line repeats | `sort app.log \| uniq -c` | [ep22-uniq-c.mp4](ep22-uniq-c.mp4) |
 | 23 | Which process holds a port | `lsof -i:443` | [ep23-lsof-port.mp4](ep23-lsof-port.mp4) |
+| 24 | Search every file, with line numbers | `grep -rn TODO .` | [ep24-grep-rn-todo.mp4](ep24-grep-rn-todo.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
