@@ -64,6 +64,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 54 | Bundle a whole folder into one file | `zip -r backup.zip cfg` | [ep54-zip-folder.mp4](ep54-zip-folder.mp4) |
 | 55 | Line this messy list up into neat columns | `column -t users.txt` | [ep55-column-t.mp4](ep55-column-t.mp4) |
 | 56 | Combine two files, line by line | `paste names.txt ages.txt` | [ep56-paste-join.mp4](ep56-paste-join.mp4) |
+| 57 | Turn this text into lowercase | `echo "HELLO WORLD" | tr "[:upper:]" "[:lower:]"` | [ep57-tr-lowercase.mp4](ep57-tr-lowercase.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
