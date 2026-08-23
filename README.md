@@ -100,6 +100,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 90 | **MILESTONE** | Chunk a file into fixed-size pieces, then prove every piece landed | `split -l 2 splitme.txt part_ && ls -1 part_*` | [ep90-split.mp4](ep90-split.mp4) |
 | 91 | What permission bits does my shell subtract from new files? | `umask` | [ep91-umask.mp4](ep91-umask.mp4) |
 | 92 | What is a one-line arithmetic sequence with a custom step? | `seq 1 3 20` | [ep92-seq.mp4](ep92-seq.mp4) |
+| 93 | What is a one-line exact-decimal calculator (no float drift)? | `echo '0.1+0.2' | bc` | [ep93-bc.mp4](ep93-bc.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
