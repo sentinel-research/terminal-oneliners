@@ -102,6 +102,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 92 | What is a one-line arithmetic sequence with a custom step? | `seq 1 3 20` | [ep92-seq.mp4](ep92-seq.mp4) |
 | 93 | What is a one-line exact-decimal calculator (no float drift)? | `echo '0.1+0.2' | bc` | [ep93-bc.mp4](ep93-bc.mp4) |
 | 94 | What is a one-line way to make a unique temp dir (no name collision)? | `mktemp -d` | [ep94-mktemp.mp4](ep94-mktemp.mp4) |
+| 95 | How do I get a file mtime as raw epoch for scripting? | `stat -c %Y /etc/hostname` | [ep95-stat-y.mp4](ep95-stat-y.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
