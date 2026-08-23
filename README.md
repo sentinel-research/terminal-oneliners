@@ -69,6 +69,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 59 | What primes does this number break into? | `factor 10002000` | [ep59-factor-primes.mp4](ep59-factor-primes.mp4) |
 | 60 | Merge two lists that share a key | `join names_age.txt names_city.txt` | [ep60-join-merge.mp4](ep60-join-merge.mp4) |
 | 61 | Count up by 2 from 0 to 10 | `seq 0 2 10` | [ep61-seq-range.mp4](ep61-seq-range.mp4) |
+| 62 | Do this math without leaving the shell | `echo "scale=2; 22/7" | bc` | [ep62-bc-math.mp4](ep62-bc-math.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
