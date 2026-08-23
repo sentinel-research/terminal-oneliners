@@ -86,6 +86,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 76 | What is this environment variable set to | `printenv HOME` | [ep76-printenv.mp4](ep76-printenv.mp4) |
 | 77 | What OS is this box actually running | `cat /etc/os-release` | [ep77-os-release.mp4](ep77-os-release.mp4) |
 | 78 | How many CPU cores does this box have | `nproc` | [ep78-nproc-cores.mp4](ep78-nproc-cores.mp4) |
+| 79 | How long has this box been up, in plain english | `uptime -p` | [ep79-uptime.mp4](ep79-uptime.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
