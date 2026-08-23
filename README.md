@@ -105,6 +105,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 95 | How do I get a file mtime as raw epoch for scripting? | `stat -c %Y /etc/hostname` | [ep95-stat-y.mp4](ep95-stat-y.mp4) |
 | 96 | How do I make a 100M file that uses 0M of real disk (sparse)? | `truncate -s 100M big && du -m big` | [ep96-truncate.mp4](ep96-truncate.mp4) |
 | 97 | How do I silently compare two files and only print on a match? | `cmp -s a1.txt b1.txt && echo identical` | [ep97-cmp.mp4](ep97-cmp.mp4) |
+| 98 | How do I copy a file and set its permissions in one atomic step? | `install -m 600 a b && stat -c %A b` | [ep98-install.mp4](ep98-install.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
