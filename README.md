@@ -89,6 +89,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 79 | How long has this box been up, in plain english | `uptime -p` | [ep79-uptime.mp4](ep79-uptime.mp4) |
 | 80 | **80-episode MILESTONE** - how do I get just the file name out of a path | `basename /tmp/ep80/ep80_video.mp4` | [ep80-basename.mp4](ep80-basename.mp4) |
 | 81 | How do I get a checksum and size for a file | `cksum ck.txt` | [ep81-cksum.mp4](ep81-cksum.mp4) |
+| 82 | How do I get just the directory part of a path | `dirname` | [ep82-dirname.mp4](ep82-dirname.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
