@@ -98,6 +98,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 88 | `readlink -f /tmp/m_link` | follow a symlink chain to its true target — `ep88-readlink.mp4` | [88](ep88-readlink.mp4) |
 | 89 | Which binaries would the shell run for a name? | `type -a cat` | [ep89-type.mp4](ep89-type.mp4) |
 | 90 | **MILESTONE** | Chunk a file into fixed-size pieces, then prove every piece landed | `split -l 2 splitme.txt part_ && ls -1 part_*` | [ep90-split.mp4](ep90-split.mp4) |
+| 91 | What permission bits does my shell subtract from new files? | `umask` | [ep91-umask.mp4](ep91-umask.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
