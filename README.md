@@ -95,6 +95,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 85 | How do I pick a random number in a range | `shuf -i 1-100 -n 1` | [ep85-shuf.mp4](ep85-shuf.mp4) |
 | 86 | List a directory one name per line | `ls -1 ~/mission/wallet` | [ep86-ls1.mp4](ep86-ls1.mp4) |
 | 87 | `tty` | how do I find out if stdin is a real terminal? | [ep87-tty.mp4](ep87-tty.mp4) |
+| 88 | `readlink -f /tmp/m_link` | follow a symlink chain to its true target — `ep88-readlink.mp4` | [88](ep88-readlink.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
