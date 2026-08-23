@@ -73,6 +73,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 63 | Flip the order of the lines | `tac steps.txt` | [ep63-tac-reverse.mp4](ep63-tac-reverse.mp4) |
 | 64 | Number every line of a file | `nl sample.txt` | [ep64-nl-number.mp4](ep64-nl-number.mp4) |
 | 65 | What is in each list, and what is in both | `comm c1.txt c2.txt` | [ep65-comm-setdiff.mp4](ep65-comm-setdiff.mp4) |
+| 66 | What is the file, byte for byte | `od -c mini.txt` | [ep66-od-bytes.mp4](ep66-od-bytes.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
