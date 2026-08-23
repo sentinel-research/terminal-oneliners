@@ -109,6 +109,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 99 | How do I extract one column from every line of a file? | `cut -d: -f1 pw.txt` | [ep99-cut.mp4](ep99-cut.mp4) |
 | 100 | MILESTONE — How do I sum 1 through 100 with three tools in one line? | `seq 1 100 | paste -sd+ | bc` | [ep100-gauss.mp4](ep100-gauss.mp4) |
 | 101 | How do I see exactly which lines differ between two files? | `diff x1.txt x2.txt` | [ep101-diff.mp4](ep101-diff.mp4) |
+| 102 | How do I sort file sizes like 2K, 3M, 100M in true order? | `sort -h sz.txt` | [ep102-sorth.mp4](ep102-sorth.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
