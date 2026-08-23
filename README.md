@@ -80,6 +80,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 70 | Where does this character first appear | `expr index "hello world" d` | [ep70-expr-index.mp4](ep70-expr-index.mp4) |
 | 71 | What readable text is hiding in this binary | `strings mini.bin` | [ep71-strings-bin.mp4](ep71-strings-bin.mp4) |
 | 72 | What user am I running as | `whoami` | [ep72-whoami.mp4](ep72-whoami.mp4) |
+| 73 | What block devices and partitions does this box have | `lsblk` | [ep73-lsblk-devices.mp4](ep73-lsblk-devices.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
