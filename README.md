@@ -83,6 +83,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 73 | What block devices and partitions does this box have | `lsblk` | [ep73-lsblk-devices.mp4](ep73-lsblk-devices.mp4) |
 | 74 | Which groups am I a member of | `id -G` | [ep74-id-groups.mp4](ep74-id-groups.mp4) |
 | 75 | How big is this directory, all told | `du -sh /tmp/to_repo` | [ep75-du-size.mp4](ep75-du-size.mp4) |
+| 76 | What is this environment variable set to | `printenv HOME` | [ep76-printenv.mp4](ep76-printenv.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
