@@ -87,6 +87,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 77 | What OS is this box actually running | `cat /etc/os-release` | [ep77-os-release.mp4](ep77-os-release.mp4) |
 | 78 | How many CPU cores does this box have | `nproc` | [ep78-nproc-cores.mp4](ep78-nproc-cores.mp4) |
 | 79 | How long has this box been up, in plain english | `uptime -p` | [ep79-uptime.mp4](ep79-uptime.mp4) |
+| 80 | **80-episode MILESTONE** - how do I get just the file name out of a path | `basename /tmp/ep80/ep80_video.mp4` | [ep80-basename.mp4](ep80-basename.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
