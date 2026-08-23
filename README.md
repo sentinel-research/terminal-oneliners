@@ -67,6 +67,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 57 | Turn this text into lowercase | `echo "HELLO WORLD" | tr "[:upper:]" "[:lower:]"` | [ep57-tr-lowercase.mp4](ep57-tr-lowercase.mp4) |
 | 58 | Read this backwards, line by line | `echo "abc def xyz" | rev` | [ep58-rev-backwards.mp4](ep58-rev-backwards.mp4) |
 | 59 | What primes does this number break into? | `factor 10002000` | [ep59-factor-primes.mp4](ep59-factor-primes.mp4) |
+| 60 | Merge two lists that share a key | `join names_age.txt names_city.txt` | [ep60-join-merge.mp4](ep60-join-merge.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
