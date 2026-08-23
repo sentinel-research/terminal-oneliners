@@ -77,6 +77,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 67 | Keep only the unique values, sorted | `sort -u fruits2.txt` | [ep67-sort-unique.mp4](ep67-sort-unique.mp4) |
 | 68 | Copy just the first 4 bytes of a file | `dd if=blob.bin bs=1 count=4` | [ep68-dd-carve.mp4](ep68-dd-carve.mp4) |
 | 69 | How full is every mounted volume | `df -h` | [ep69-df-disk.mp4](ep69-df-disk.mp4) |
+| 70 | Where does this character first appear | `expr index "hello world" d` | [ep70-expr-index.mp4](ep70-expr-index.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
