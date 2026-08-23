@@ -91,6 +91,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 81 | How do I get a checksum and size for a file | `cksum ck.txt` | [ep81-cksum.mp4](ep81-cksum.mp4) |
 | 82 | How do I get just the directory part of a path | `dirname` | [ep82-dirname.mp4](ep82-dirname.mp4) |
 | 83 | How do I get the 32-hex MD5 of a file | `md5sum ck.txt` | [ep83-md5sum.mp4](ep83-md5sum.mp4) |
+| 84 | How many processes match a name, fast | `pgrep -c bash` | [ep84-pgrep.mp4](ep84-pgrep.mp4) |
 
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
