@@ -161,4 +161,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 147 | How do I grep for whole words only (not substrings)? | `grep -w cat gw.txt` | [ep147-grep-w.mp4](ep147-grep-w.mp4) |
 | 148 | How do I list lines present ONLY in the first of two sorted files? | `comm -23 a.txt b.txt` | [ep148-comm-23.mp4](ep148-comm-23.mp4) |
 | 149 | How do I get my username (not the numeric uid)? | `id -un` | [ep149-id-un.mp4](ep149-id-un.mp4) |
+| 150 | How do I list lines present ONLY in the second of two sorted files? | `comm -13 a.txt b.txt` | [ep150-comm-13.mp4](ep150-comm-13.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
