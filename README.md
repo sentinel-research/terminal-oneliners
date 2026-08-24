@@ -130,6 +130,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 120 | How do I check if a file exists, and act only if it does? | `test -f wcsrc.txt && echo exists` | [ep120-test-f.mp4](ep120-test-f.mp4) |
 | 121 | How do I find the exact path the shell will run for a command? | `command -v bash` | [ep121-command-v.mp4](ep121-command-v.mp4) |
 | 122 | How do I do arithmetic on a variable in the shell? | `let x=7+5; echo $x` | [ep122-let-arithmetic.mp4](ep122-let-arithmetic.mp4) |
+| 123 | How do I extract only the matching substrings, not whole lines? | `grep -oE 'un[a-z]+ed' words.txt` | [ep123-grep-oE.mp4](ep123-grep-oE.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
