@@ -152,4 +152,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 138 | How do I print just my numeric user id, without the name? | `id -u` | [ep138-id-u.mp4](ep138-id-u.mp4) |
 | 139 | Which lines in a file are duplicated? | `sort dupes.txt | uniq -d` | [ep139-uniq-d.mp4](ep139-uniq-d.mp4) |
 | 140 | Which lines appear exactly once, with no duplicates? | `sort dupes.txt | uniq -u` | [ep140-uniq-u.mp4](ep140-uniq-u.mp4) |
+| 141 | How do I sort numbers numerically, not as text? | `sort -n nums.txt` | [ep141-sort-n.mp4](ep141-sort-n.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
