@@ -118,6 +118,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 108 | How do I sort lines by the first number, 1 before 10? | `sort -k1 -n pairs.txt` | [ep108-sort-kn.mp4](ep108-sort-kn.mp4) |
 | 109 | How do I grab exactly the first 10 bytes of a file? | `head -c 10 ab.txt` | [ep109-head-c.mp4](ep109-head-c.mp4) |
 | 110 | How do I read a line backwards, character by character? | `rev rv.txt` | [ep110-rev.mp4](ep110-rev.mp4) |
+| 111 | How do I turn base64 back into the original text? | `echo aGVsbG8= | base64 -d` | [ep111-base64-d.mp4](ep111-base64-d.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
