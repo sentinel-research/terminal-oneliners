@@ -148,4 +148,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 134 | How do I get the alphabetically-first item in an unsorted file? | `sort items.txt | head -1` | [ep134-sort-head1.mp4](ep134-sort-head1.mp4) |
 | 135 | How do I count characters, not bytes, in a UTF-8 file? | `wc -m < uni.txt` | [ep135-wc-m.mp4](ep135-wc-m.mp4) |
 | 136 | How do I get the alphabetically-last item in an unsorted file? | `sort items.txt | tail -1` | [ep136-sort-tail1.mp4](ep136-sort-tail1.mp4) |
+| 137 | How do I run a command that survives my shell logout? | `nohup echo hi` | [ep137-nohup-echo.mp4](ep137-nohup-echo.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
