@@ -140,4 +140,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 126 | How do I print only the first N lines of a file? | `head -n 2 five.txt` | [ep126-head-n.mp4](ep126-head-n.mp4) |
 | 127 | How do I print a file type as a human-readable string? | `stat -c %F rep.txt` | [ep127-stat-F.mp4](ep127-stat-F.mp4) |
 | 128 | How do I do math inline without a variable? | `echo $(( 6*7 ))` | [ep128-echo-arith.mp4](ep128-echo-arith.mp4) |
+| 129 | How do I check if a file is already sorted without re-sorting it? | `sort -c unsorted.txt` | [ep129-sort-c.mp4](ep129-sort-c.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
