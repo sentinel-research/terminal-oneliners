@@ -150,4 +150,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 136 | How do I get the alphabetically-last item in an unsorted file? | `sort items.txt | tail -1` | [ep136-sort-tail1.mp4](ep136-sort-tail1.mp4) |
 | 137 | How do I run a command that survives my shell logout? | `nohup echo hi` | [ep137-nohup-echo.mp4](ep137-nohup-echo.mp4) |
 | 138 | How do I print just my numeric user id, without the name? | `id -u` | [ep138-id-u.mp4](ep138-id-u.mp4) |
+| 139 | Which lines in a file are duplicated? | `sort dupes.txt | uniq -d` | [ep139-uniq-d.mp4](ep139-uniq-d.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
