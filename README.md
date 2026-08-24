@@ -153,4 +153,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 139 | Which lines in a file are duplicated? | `sort dupes.txt | uniq -d` | [ep139-uniq-d.mp4](ep139-uniq-d.mp4) |
 | 140 | Which lines appear exactly once, with no duplicates? | `sort dupes.txt | uniq -u` | [ep140-uniq-u.mp4](ep140-uniq-u.mp4) |
 | 141 | How do I sort numbers numerically, not as text? | `sort -n nums.txt` | [ep141-sort-n.mp4](ep141-sort-n.mp4) |
+| 142 | How do I get only the first line that matches a grep pattern? | `grep -m1 ERROR app.log` | [ep142-grep-m1.mp4](ep142-grep-m1.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
