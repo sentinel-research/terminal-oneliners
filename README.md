@@ -127,6 +127,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 117 | How do I cut every line down to its first 3 characters? | `cut -c1-3 cutsrc.txt` | [ep117-cut-c.mp4](ep117-cut-c.mp4) |
 | 118 | How do I run a command once for every line, substituting the line in? | `xargs -I {} echo "fruit: {}" < fruits.txt` | [ep118-xargs-I.mp4](ep118-xargs-I.mp4) |
 | 119 | How do I suppress the trailing newline from echo? | `echo -n hello; echo world` | [ep119-echo-n.mp4](ep119-echo-n.mp4) |
+| 120 | How do I check if a file exists, and act only if it does? | `test -f wcsrc.txt && echo exists` | [ep120-test-f.mp4](ep120-test-f.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
