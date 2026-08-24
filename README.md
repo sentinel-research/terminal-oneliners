@@ -151,4 +151,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 137 | How do I run a command that survives my shell logout? | `nohup echo hi` | [ep137-nohup-echo.mp4](ep137-nohup-echo.mp4) |
 | 138 | How do I print just my numeric user id, without the name? | `id -u` | [ep138-id-u.mp4](ep138-id-u.mp4) |
 | 139 | Which lines in a file are duplicated? | `sort dupes.txt | uniq -d` | [ep139-uniq-d.mp4](ep139-uniq-d.mp4) |
+| 140 | Which lines appear exactly once, with no duplicates? | `sort dupes.txt | uniq -u` | [ep140-uniq-u.mp4](ep140-uniq-u.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
