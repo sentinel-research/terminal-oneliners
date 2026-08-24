@@ -162,4 +162,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 148 | How do I list lines present ONLY in the first of two sorted files? | `comm -23 a.txt b.txt` | [ep148-comm-23.mp4](ep148-comm-23.mp4) |
 | 149 | How do I get my username (not the numeric uid)? | `id -un` | [ep149-id-un.mp4](ep149-id-un.mp4) |
 | 150 | How do I list lines present ONLY in the second of two sorted files? | `comm -13 a.txt b.txt` | [ep150-comm-13.mp4](ep150-comm-13.mp4) |
+| 151 | How do I match only lines that are EXACTLY a word (no partial matches)? | `grep -x cat wx.txt` | [ep151-grep-x.mp4](ep151-grep-x.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
