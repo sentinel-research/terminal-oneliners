@@ -114,6 +114,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 104 | How do I find which user owns a file? | `stat -c %U /etc/hostname` | [ep104-stat-u.mp4](ep104-stat-u.mp4) |
 | 105 | How do I turn a relative path into one absolute, normalized path? | `realpath ./README.md` | [ep105-realpath.mp4](ep105-realpath.mp4) |
 | 106 | How do I send output to the screen AND a file at the same time? | `echo hello | tee out.txt` | [ep106-tee.mp4](ep106-tee.mp4) |
+| 107 | How do I drop the header line from a CSV before processing? | `tail -n +2 data.csv` | [ep107-tail-plus.mp4](ep107-tail-plus.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
