@@ -143,4 +143,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 129 | How do I check if a file is already sorted without re-sorting it? | `sort -c unsorted.txt` | [ep129-sort-c.mp4](ep129-sort-c.mp4) |
 | 130 | How do I list the lines present in BOTH of two sorted files? | `comm -12 a.txt b.txt` | [ep130-comm-12.mp4](ep130-comm-12.mp4) |
 | 131 | How do I check whether the last command succeeded? | `false; echo $?` | [ep131-echo-dollar-question.mp4](ep131-echo-dollar-question.mp4) |
+| 132 | How do I print a file size in bytes as a bare number? | `stat -c %s rep.txt` | [ep132-stat-s.mp4](ep132-stat-s.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
