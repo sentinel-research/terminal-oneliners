@@ -123,6 +123,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 113 | How do I round a number to 2 decimal places in the shell? | `printf %.2f 3.14159` | [ep113-printf-f2.mp4](ep113-printf-f2.mp4) |
 | 114 | How do I get just the byte count, with no filename? | `wc -c < wcsrc.txt` | [ep114-wc-c-lt.mp4](ep114-wc-c-lt.mp4) |
 | 115 | How do I extract one specific line by its line number? | `sed -n 2p rows.txt` | [ep115-sed-n2p.mp4](ep115-sed-n2p.mp4) |
+| 116 | How do I get just the folder part of a path? | `dirname /usr/local/bin/node` | [ep116-dirname.mp4](ep116-dirname.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
