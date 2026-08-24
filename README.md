@@ -156,4 +156,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 142 | How do I get only the first line that matches a grep pattern? | `grep -m1 ERROR app.log` | [ep142-grep-m1.mp4](ep142-grep-m1.mp4) |
 | 143 | How do I replace every character EXCEPT one specific character? | `tr -c b X < trc.txt` | [ep143-tr-c.mp4](ep143-tr-c.mp4) |
 | 144 | How do I see which line numbers a pattern matches on? | `grep -n listen cfg.txt` | [ep144-grep-n.mp4](ep144-grep-n.mp4) |
+| 145 | How do I see the line after each grep match? | `grep -A1 ERROR app.log` | [ep145-grep-A1.mp4](ep145-grep-A1.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
