@@ -165,4 +165,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 151 | How do I match only lines that are EXACTLY a word (no partial matches)? | `grep -x cat wx.txt` | [ep151-grep-x.mp4](ep151-grep-x.mp4) |
 | 152 | How do I grep for lines containing a DIGIT using a regex? | `grep -P '\d' num.txt` | [ep152-grep-P.mp4](ep152-grep-P.mp4) |
 | 153 | How do I replace EVERY occurrence of a string on each line? | `sed -e 's/alpha/omega/g' sedsrc.txt` | [ep153-sed-e.mp4](ep153-sed-e.mp4) |
+| 154 | How do I extract just the second column from a tab-separated file? | `cut -f2 t1.tsv` | [ep154-cut-f2.mp4](ep154-cut-f2.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
