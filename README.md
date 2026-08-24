@@ -158,4 +158,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 144 | How do I see which line numbers a pattern matches on? | `grep -n listen cfg.txt` | [ep144-grep-n.mp4](ep144-grep-n.mp4) |
 | 145 | How do I see the line after each grep match? | `grep -A1 ERROR app.log` | [ep145-grep-A1.mp4](ep145-grep-A1.mp4) |
 | 146 | How do I see the line BEFORE each grep match? | `grep -B1 ERROR app.log` | [ep146-grep-B1.mp4](ep146-grep-B1.mp4) |
+| 147 | How do I grep for whole words only (not substrings)? | `grep -w cat gw.txt` | [ep147-grep-w.mp4](ep147-grep-w.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
