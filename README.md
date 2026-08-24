@@ -164,4 +164,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 150 | How do I list lines present ONLY in the second of two sorted files? | `comm -13 a.txt b.txt` | [ep150-comm-13.mp4](ep150-comm-13.mp4) |
 | 151 | How do I match only lines that are EXACTLY a word (no partial matches)? | `grep -x cat wx.txt` | [ep151-grep-x.mp4](ep151-grep-x.mp4) |
 | 152 | How do I grep for lines containing a DIGIT using a regex? | `grep -P '\d' num.txt` | [ep152-grep-P.mp4](ep152-grep-P.mp4) |
+| 153 | How do I replace EVERY occurrence of a string on each line? | `sed -e 's/alpha/omega/g' sedsrc.txt` | [ep153-sed-e.mp4](ep153-sed-e.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
