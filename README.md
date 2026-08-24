@@ -121,6 +121,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 111 | How do I turn base64 back into the original text? | `echo aGVsbG8= | base64 -d` | [ep111-base64-d.mp4](ep111-base64-d.mp4) |
 | 112 | How do I strip all the digits out of a string? | `echo a1b2c3 | tr -d [:digit:]` | [ep112-tr-d.mp4](ep112-tr-d.mp4) |
 | 113 | How do I round a number to 2 decimal places in the shell? | `printf %.2f 3.14159` | [ep113-printf-f2.mp4](ep113-printf-f2.mp4) |
+| 114 | How do I get just the byte count, with no filename? | `wc -c < wcsrc.txt` | [ep114-wc-c-lt.mp4](ep114-wc-c-lt.mp4) |
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
