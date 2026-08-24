@@ -147,4 +147,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 133 | How many lines in a log match a pattern, without printing them? | `grep -c ERROR app.log` | [ep133-grep-c.mp4](ep133-grep-c.mp4) |
 | 134 | How do I get the alphabetically-first item in an unsorted file? | `sort items.txt | head -1` | [ep134-sort-head1.mp4](ep134-sort-head1.mp4) |
 | 135 | How do I count characters, not bytes, in a UTF-8 file? | `wc -m < uni.txt` | [ep135-wc-m.mp4](ep135-wc-m.mp4) |
+| 136 | How do I get the alphabetically-last item in an unsorted file? | `sort items.txt | tail -1` | [ep136-sort-tail1.mp4](ep136-sort-tail1.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
