@@ -135,4 +135,6 @@ By [Sentinel Research](https://github.com/sentinel-research).
 Each episode: a dark-terminal card with the command, its output, and a
 one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content).
 
+| 125 | How do I collapse repeated spaces into a single space? | `tr -s ' ' < rep.txt` | [ep125-tr-s.mp4](ep125-tr-s.mp4) |
+| 125 | How do I collapse repeated spaces into a single space? | `tr -s ' ' < rep.txt` | [ep125-tr-s.mp4](ep125-tr-s.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
