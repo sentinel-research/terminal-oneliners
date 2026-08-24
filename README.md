@@ -160,4 +160,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 146 | How do I see the line BEFORE each grep match? | `grep -B1 ERROR app.log` | [ep146-grep-B1.mp4](ep146-grep-B1.mp4) |
 | 147 | How do I grep for whole words only (not substrings)? | `grep -w cat gw.txt` | [ep147-grep-w.mp4](ep147-grep-w.mp4) |
 | 148 | How do I list lines present ONLY in the first of two sorted files? | `comm -23 a.txt b.txt` | [ep148-comm-23.mp4](ep148-comm-23.mp4) |
+| 149 | How do I get my username (not the numeric uid)? | `id -un` | [ep149-id-un.mp4](ep149-id-un.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
