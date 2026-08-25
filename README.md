@@ -186,4 +186,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 172 | How do I print every 3rd line of a file or stream? | `seq 1 10 | awk 'NR%3==0'` | [ep172-awk-nr3.mp4](ep172-awk-nr3.mp4) |
 | 173 | How do I keep only the values above a threshold? | `seq 1 10 | awk '$1 > 5'` | [ep173-awk-gt5.mp4](ep173-awk-gt5.mp4) |
 | 174 | How do I keep only the values below a threshold? | `seq 1 10 | awk '$1 < 5'` | [ep174-awk-lt5.mp4](ep174-awk-lt5.mp4) |
+| 175 | How do I keep values at or below a limit (inclusive)? | `seq 1 10 | awk '$1 <= 5'` | [ep175-awk-le5.mp4](ep175-awk-le5.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
