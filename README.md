@@ -198,4 +198,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 184 | How do I drop the first few characters from every line? | `printf 'abcdefgh\nijklmnop\n' | cut -c4-` | [ep184-cut-4.mp4](ep184-cut-4.mp4) |
 | 185 | How do I grab exactly the first N bytes from a stream? | `printf 'abcdefg' | head -c 5` | [ep185-head-5b.mp4](ep185-head-5b.mp4) |
 | 186 | How do I duplicate each line with a separator between the copies? | `seq 1 3 | awk '{print $0"-"$0}'` | [ep186-awk-concat.mp4](ep186-awk-concat.mp4) |
+| 187 | How do I match lines where a specific digit follows any other digit? | `seq 1 30 | awk '$0 ~ /[0-9]3/'` | [ep187-awk-cls3.mp4](ep187-awk-cls3.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
