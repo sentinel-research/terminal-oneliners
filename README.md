@@ -171,4 +171,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 157 | How do I compute a date relative to today (e.g. 2 days ago)? | `date -d '2 days ago' +%Y-%m-%d` | [ep157-date-d.mp4](ep157-date-d.mp4) |
 | 158 | How do I print only the EVEN numbers from a sequence? | `seq 1 10 | awk '$1 % 2 == 0'` | [ep158-seq-awk.mp4](ep158-seq-awk.mp4) |
 | 159 | How do I SQUARE every number in a list using a pipeline? | `seq 1 5 | awk '{print $1*$1}'` | [ep159-seq-awk-sq.mp4](ep159-seq-awk-sq.mp4) |
+| 160 | How do I pair lines into two columns (two-at-a-time)? | `seq 1 10 | paste - -` | [ep160-paste-pair.mp4](ep160-paste-pair.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
