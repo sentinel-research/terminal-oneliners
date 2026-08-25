@@ -204,4 +204,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 190 | How do I keep only lines that are exactly one of a few specific values? | `seq 1 10 | awk '$0 ~ /^[19]$/'` | [ep190-awk-anch19.mp4](ep190-awk-anch19.mp4) |
 | 191 | How do I keep lines matching EITHER of two different patterns? | `printf 'cat\ndog\ncar\n' | awk '/cat|car/'` | [ep191-awk-alternate.mp4](ep191-awk-alternate.mp4) |
 | 192 | How do I match a string where one character can be anything? | `printf 'abc\nab\nd\nef\n' | awk '/ab./'` | [ep192-awk-dotany.mp4](ep192-awk-dotany.mp4) |
+| 193 | How do I print one specific line by its line number? | `printf 'one\ntwo\nthree\n' | awk 'NR==2'` | [ep193-awk-nr2.mp4](ep193-awk-nr2.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
