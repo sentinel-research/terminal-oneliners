@@ -178,4 +178,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 164 | How do I turn a space-separated line into one word per line? | `echo "one two three" | tr ' ' '\n'` | [ep164-tr-sp2nl.mp4](ep164-tr-sp2nl.mp4) |
 | 165 | How do I count up starting from a custom number? | `seq 3 5` | [ep165-seq-start.mp4](ep165-seq-start.mp4) |
 | 166 | How do I count DOWN by a fixed amount in one line? | `seq 5 -2 1` | [ep166-seq-down.mp4](ep166-seq-down.mp4) |
+| 167 | How do I keep only the last 3 lines of a long output? | `seq 1 10 | tail -3` | [ep167-tail3.mp4](ep167-tail3.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
