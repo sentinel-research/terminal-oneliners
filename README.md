@@ -183,4 +183,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 169 | How do I peek at just the first few lines of output? | `seq 1 10 | head -2` | [ep169-head2.mp4](ep169-head2.mp4) |
 | 170 | How do I collapse multi-line output into a single line? | `seq 1 5 | tr '\n' ' '` | [ep170-tr-nl2sp.mp4](ep170-tr-nl2sp.mp4) |
 | 171 | How do I raise a number to a power in the shell? | `echo $((2**10))` | [ep171-pow.mp4](ep171-pow.mp4) |
+| 172 | How do I print every 3rd line of a file or stream? | `seq 1 10 | awk 'NR%3==0'` | [ep172-awk-nr3.mp4](ep172-awk-nr3.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
