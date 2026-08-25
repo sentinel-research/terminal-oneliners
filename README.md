@@ -203,4 +203,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 189 | How do I count how many times each value repeats in a row? | `printf 'a\nb\nb\na\na\n' | uniq -c` | [ep189-uniq-count.mp4](ep189-uniq-count.mp4) |
 | 190 | How do I keep only lines that are exactly one of a few specific values? | `seq 1 10 | awk '$0 ~ /^[19]$/'` | [ep190-awk-anch19.mp4](ep190-awk-anch19.mp4) |
 | 191 | How do I keep lines matching EITHER of two different patterns? | `printf 'cat\ndog\ncar\n' | awk '/cat|car/'` | [ep191-awk-alternate.mp4](ep191-awk-alternate.mp4) |
+| 192 | How do I match a string where one character can be anything? | `printf 'abc\nab\nd\nef\n' | awk '/ab./'` | [ep192-awk-dotany.mp4](ep192-awk-dotany.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
