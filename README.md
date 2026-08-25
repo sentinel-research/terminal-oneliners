@@ -188,4 +188,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 174 | How do I keep only the values below a threshold? | `seq 1 10 | awk '$1 < 5'` | [ep174-awk-lt5.mp4](ep174-awk-lt5.mp4) |
 | 175 | How do I keep values at or below a limit (inclusive)? | `seq 1 10 | awk '$1 <= 5'` | [ep175-awk-le5.mp4](ep175-awk-le5.mp4) |
 | 176 | How do I keep values at or above a limit (inclusive)? | `seq 1 10 | awk '$1 >= 5'` | [ep176-awk-ge5.mp4](ep176-awk-ge5.mp4) |
+| 177 | How do I exclude one specific value from a list? | `seq 1 10 | awk '$1 != 5'` | [ep177-awk-ne5.mp4](ep177-awk-ne5.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
