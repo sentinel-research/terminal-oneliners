@@ -167,4 +167,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 153 | How do I replace EVERY occurrence of a string on each line? | `sed -e 's/alpha/omega/g' sedsrc.txt` | [ep153-sed-e.mp4](ep153-sed-e.mp4) |
 | 154 | How do I extract just the second column from a tab-separated file? | `cut -f2 t1.tsv` | [ep154-cut-f2.mp4](ep154-cut-f2.mp4) |
 | 155 | How do I turn TAB characters into a single space? | `expand -t 1 ex.txt` | [ep155-expand-t1.mp4](ep155-expand-t1.mp4) |
+| 156 | How do I query the system for a runtime config value? | `getconf PAGESIZE` | [ep156-getconf.mp4](ep156-getconf.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
