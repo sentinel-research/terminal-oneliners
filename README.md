@@ -201,4 +201,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 187 | How do I match lines where a specific digit follows any other digit? | `seq 1 30 | awk '$0 ~ /[0-9]3/'` | [ep187-awk-cls3.mp4](ep187-awk-cls3.mp4) |
 | 188 | How do I print just the second field of a line? | `echo 'alpha beta gamma' | awk '{print $2}'` | [ep188-awk-f2.mp4](ep188-awk-f2.mp4) |
 | 189 | How do I count how many times each value repeats in a row? | `printf 'a\nb\nb\na\na\n' | uniq -c` | [ep189-uniq-count.mp4](ep189-uniq-count.mp4) |
+| 190 | How do I keep only lines that are exactly one of a few specific values? | `seq 1 10 | awk '$0 ~ /^[19]$/'` | [ep190-awk-anch19.mp4](ep190-awk-anch19.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
