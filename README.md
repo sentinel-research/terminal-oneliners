@@ -181,4 +181,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 167 | How do I keep only the last 3 lines of a long output? | `seq 1 10 | tail -3` | [ep167-tail3.mp4](ep167-tail3.mp4) |
 | 168 | How do I count up by 0.5 (float steps)? | `seq 0 0.5 2` | [ep168-seq-float.mp4](ep168-seq-float.mp4) |
 | 169 | How do I peek at just the first few lines of output? | `seq 1 10 | head -2` | [ep169-head2.mp4](ep169-head2.mp4) |
+| 170 | How do I collapse multi-line output into a single line? | `seq 1 5 | tr '\n' ' '` | [ep170-tr-nl2sp.mp4](ep170-tr-nl2sp.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
