@@ -207,4 +207,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 193 | How do I print one specific line by its line number? | `printf 'one\ntwo\nthree\n' | awk 'NR==2'` | [ep193-awk-nr2.mp4](ep193-awk-nr2.mp4) |
 | 194 | How do I get the remainder when dividing one number by another? | `echo $((100 % 7))` | [ep194-shell-modulo.mp4](ep194-shell-modulo.mp4) |
 | 195 | How do I divide two integers and drop the remainder? | `echo $((17 / 5))` | [ep195-shell-intdiv.mp4](ep195-shell-intdiv.mp4) |
+| 196 | Why does the shell compute 1 + 2 * 3 as 7 and not 9? | `echo $((1 + 2 * 3))` | [ep196-shell-precedence.mp4](ep196-shell-precedence.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
