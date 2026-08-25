@@ -190,4 +190,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 176 | How do I keep values at or above a limit (inclusive)? | `seq 1 10 | awk '$1 >= 5'` | [ep176-awk-ge5.mp4](ep176-awk-ge5.mp4) |
 | 177 | How do I exclude one specific value from a list? | `seq 1 10 | awk '$1 != 5'` | [ep177-awk-ne5.mp4](ep177-awk-ne5.mp4) |
 | 178 | How do I keep only lines that end with a pattern (regex)? | `seq 1 50 | awk '$0 ~ /5$/'` | [ep178-awk-regex5.mp4](ep178-awk-regex5.mp4) |
+| 179 | How do I keep only lines that start with a pattern (regex)? | `seq 1 12 | awk '$0 ~ /^1/'` | [ep179-awk-start1.mp4](ep179-awk-start1.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
