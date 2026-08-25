@@ -210,4 +210,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 196 | Why does the shell compute 1 + 2 * 3 as 7 and not 9? | `echo $((1 + 2 * 3))` | [ep196-shell-precedence.mp4](ep196-shell-precedence.mp4) |
 | 197 | What happens when a tr replacement set is shorter than the target set? | `printf 'abcabc' | tr 'abc' '12'` | [ep197-tr-pad.mp4](ep197-tr-pad.mp4) |
 | 198 | How do I print every line EXCEPT the last few? | `seq 1 5 | head -n -2` | [ep198-head-neg2.mp4](ep198-head-neg2.mp4) |
+| 199 | How do I match one or more of the same character in a row? | `printf 'aa\nb\naabb\nc\n' | awk '/a+/'` | [ep199-awk-plus.mp4](ep199-awk-plus.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
