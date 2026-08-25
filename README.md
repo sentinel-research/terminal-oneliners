@@ -168,4 +168,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 154 | How do I extract just the second column from a tab-separated file? | `cut -f2 t1.tsv` | [ep154-cut-f2.mp4](ep154-cut-f2.mp4) |
 | 155 | How do I turn TAB characters into a single space? | `expand -t 1 ex.txt` | [ep155-expand-t1.mp4](ep155-expand-t1.mp4) |
 | 156 | How do I query the system for a runtime config value? | `getconf PAGESIZE` | [ep156-getconf.mp4](ep156-getconf.mp4) |
+| 157 | How do I compute a date relative to today (e.g. 2 days ago)? | `date -d '2 days ago' +%Y-%m-%d` | [ep157-date-d.mp4](ep157-date-d.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
