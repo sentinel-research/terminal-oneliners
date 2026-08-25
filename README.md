@@ -206,4 +206,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 192 | How do I match a string where one character can be anything? | `printf 'abc\nab\nd\nef\n' | awk '/ab./'` | [ep192-awk-dotany.mp4](ep192-awk-dotany.mp4) |
 | 193 | How do I print one specific line by its line number? | `printf 'one\ntwo\nthree\n' | awk 'NR==2'` | [ep193-awk-nr2.mp4](ep193-awk-nr2.mp4) |
 | 194 | How do I get the remainder when dividing one number by another? | `echo $((100 % 7))` | [ep194-shell-modulo.mp4](ep194-shell-modulo.mp4) |
+| 195 | How do I divide two integers and drop the remainder? | `echo $((17 / 5))` | [ep195-shell-intdiv.mp4](ep195-shell-intdiv.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
