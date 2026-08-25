@@ -212,4 +212,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 198 | How do I print every line EXCEPT the last few? | `seq 1 5 | head -n -2` | [ep198-head-neg2.mp4](ep198-head-neg2.mp4) |
 | 199 | How do I match one or more of the same character in a row? | `printf 'aa\nb\naabb\nc\n' | awk '/a+/'` | [ep199-awk-plus.mp4](ep199-awk-plus.mp4) |
 | 200 | How do I keep only the lines that start with a lowercase letter? | `printf 'A\nb\nC\n' | awk '/^[a-z]/'` | [ep200-awk-lowercase.mp4](ep200-awk-lowercase.mp4) |
+| 201 | How do I keep only the lines that start with an uppercase letter? | `printf 'a\nB\nC\n' | awk '/^[A-Z]/'` | [ep201-awk-uppercase.mp4](ep201-awk-uppercase.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
