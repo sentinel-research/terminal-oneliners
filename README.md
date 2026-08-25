@@ -174,4 +174,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 160 | How do I pair lines into two columns (two-at-a-time)? | `seq 1 10 | paste - -` | [ep160-paste-pair.mp4](ep160-paste-pair.mp4) |
 | 161 | How do I check whether a process still exists? | `kill -0 $$ && echo alive` | [ep161-kill-0.mp4](ep161-kill-0.mp4) |
 | 162 | How do I print a number sequence with custom padding / width? | `seq -f '%03.0f' 1 5` | [ep162-seq-f.mp4](ep162-seq-f.mp4) |
+| 163 | How do I get the TOP 3 values from a list, largest first? | `seq 1 100 | sort -rn | head -3` | [ep163-top3.mp4](ep163-top3.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
