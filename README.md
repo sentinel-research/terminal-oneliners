@@ -182,4 +182,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 168 | How do I count up by 0.5 (float steps)? | `seq 0 0.5 2` | [ep168-seq-float.mp4](ep168-seq-float.mp4) |
 | 169 | How do I peek at just the first few lines of output? | `seq 1 10 | head -2` | [ep169-head2.mp4](ep169-head2.mp4) |
 | 170 | How do I collapse multi-line output into a single line? | `seq 1 5 | tr '\n' ' '` | [ep170-tr-nl2sp.mp4](ep170-tr-nl2sp.mp4) |
+| 171 | How do I raise a number to a power in the shell? | `echo $((2**10))` | [ep171-pow.mp4](ep171-pow.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
