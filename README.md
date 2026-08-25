@@ -192,4 +192,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 178 | How do I keep only lines that end with a pattern (regex)? | `seq 1 50 | awk '$0 ~ /5$/'` | [ep178-awk-regex5.mp4](ep178-awk-regex5.mp4) |
 | 179 | How do I keep only lines that start with a pattern (regex)? | `seq 1 12 | awk '$0 ~ /^1/'` | [ep179-awk-start1.mp4](ep179-awk-start1.mp4) |
 | 180 | How do I drop blank (empty) lines from a stream? | `printf 'a\n\nb\n\nc\n' | awk 'NF'` | [ep180-awk-nf-blank.mp4](ep180-awk-nf-blank.mp4) |
+| 181 | How do I print only the LAST field of a line? | `echo 'a b c d' | awk '{print $NF}'` | [ep181-awk-nf-last.mp4](ep181-awk-nf-last.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
