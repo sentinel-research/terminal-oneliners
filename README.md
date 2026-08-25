@@ -196,4 +196,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 182 | How do I keep only lines longer than a certain length? | `printf 'a\nab\nabc\nabcd\n' | awk 'length>3'` | [ep182-awk-length.mp4](ep182-awk-length.mp4) |
 | 183 | How do I wrap text onto fixed-width lines? | `echo 'banana' | fold -w 3` | [ep183-fold-wrap.mp4](ep183-fold-wrap.mp4) |
 | 184 | How do I drop the first few characters from every line? | `printf 'abcdefgh\nijklmnop\n' | cut -c4-` | [ep184-cut-4.mp4](ep184-cut-4.mp4) |
+| 185 | How do I grab exactly the first N bytes from a stream? | `printf 'abcdefg' | head -c 5` | [ep185-head-5b.mp4](ep185-head-5b.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
