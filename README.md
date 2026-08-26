@@ -31,6 +31,7 @@ By [Sentinel Research](https://github.com/sentinel-research).
 | 236 | How do I access a specific element of an array by its index? | `arr=(a b c); echo ${arr[1]}` | [ep236-arr-index.mp4](ep236-arr-index.mp4) |
 | 237 | How do I find the number of elements in an array? | `arr=(a b c d); echo ${#arr[@]}` | [ep237-arr-len.mp4](ep237-arr-len.mp4) |
 | 238 | How do I split a line of text into an array? | `read -a w <<< 'red green blue'; echo "${w[@]}"` | [ep238-read-a.mp4](ep238-read-a.mp4) |
+| 239 | How do I list the keys of an associative array? | `declare -A m; m[a]=1; m[b]=2; echo "${!m[@]}"` | [ep239-assoc-keys.mp4](ep239-assoc-keys.mp4) |
 | 20 | Locate files by pattern, fast | `find /home -name *.log` | [ep20-find-name-log.mp4](ep20-find-name-log.mp4) |
 | 21 | Pull fields out of a delimited file | `cut -d: -f1,3 /etc/passwd` | [ep21-cut-fields.mp4](ep21-cut-fields.mp4) |
 | 22 | Count how often each line repeats | `sort app.log \| uniq -c` | [ep22-uniq-c.mp4](ep22-uniq-c.mp4) |
