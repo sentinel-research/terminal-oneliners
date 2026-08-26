@@ -260,4 +260,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 246 | How do I print a field only when it is guaranteed to exist in awk? | `printf 'one two three four\n' | awk 'NF>2 {print $3}'` | [ep246-awk-nf.mp4](ep246-awk-nf.mp4) |
 | 247 | How do I compute the average of a column of numbers with awk? | `seq 4 | awk '{s+=$1} END{print s/NR}'` | [ep247-awk-avg.mp4](ep247-awk-avg.mp4) |
 | 248 | How do I show only the first N lines of a stream? | `seq 10 | head -n 3` | [ep248-head-n3.mp4](ep248-head-n3.mp4) |
+| 249 | How do I count the lines that match a pattern (without printing them)? | `seq 100 | grep -c .` | [ep249-grep-c-dot.mp4](ep249-grep-c-dot.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
