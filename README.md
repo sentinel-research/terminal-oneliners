@@ -229,6 +229,7 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 215 | How do I round a number to 2 decimals in a fixed-width field? | `printf '%5.2f\n' 3.14159` | [ep215-printf-float.mp4](ep215-printf-float.mp4) |
 | 232 | What does $0 refer to in a shell script? | `echo $0` | [ep232-zero-arg.mp4](ep232-zero-arg.mp4) |
 | 233 | How do I capture what a regex matched? | `[[ hello =~ (l)+ ]] && echo ${BASH_REMATCH[0]}` | [ep233-bashrematch.mp4](ep233-bashrematch.mp4) |
+| 234 | How do I count the arguments passed to a function? | `f() { echo $#; }; f a b c` | [ep234-func-pos.mp4](ep234-func-pos.mp4) |
 | 216 | How do I print a number in hex? | `printf '%x\n' 255` | [ep216-printf-hex.mp4](ep216-printf-hex.mp4) |
 | 217 | How do I right-justify a number in a fixed-width field (space pad)? | `printf '%5d\n' 42` | [ep217-printf-justify.mp4](ep217-printf-justify.mp4) |
 | 218 | How do I change the separator awk puts between printed fields? | `printf 'a b\nc d\n' | awk -v OFS='-' '{print $1, $2}'` | [ep218-awk-ofs.mp4](ep218-awk-ofs.mp4) |
