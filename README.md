@@ -222,4 +222,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 208 | How do I print only the first two columns (fields) of each line? | `printf 'aa bb cc\ndd ee\n' | awk '{print $1, $2}'` | [ep208-awk-fields.mp4](ep208-awk-fields.mp4) |
 | 209 | How do I read input into variables one word at a time? | `read x y <<< 'aa bb'; echo $y` | [ep209-read-var.mp4](ep209-read-var.mp4) |
 | 210 | How do I keep only the lines that have exactly N fields? | `printf 'a b c\nd e\nf g h i\n' | awk 'NF==3'` | [ep210-awk-nf3.mp4](ep210-awk-nf3.mp4) |
+| 211 | How do I keep only lines that contain at least one letter? | `printf 'a1\nB2\n34\n' | awk '/[a-zA-Z]/'` | [ep211-awk-combined-class.mp4](ep211-awk-combined-class.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
