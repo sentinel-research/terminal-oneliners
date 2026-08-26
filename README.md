@@ -217,4 +217,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 203 | How do I match a line that does NOT start with a lowercase letter? | `printf 'A\nb\n1\n$c\n' | awk '/^[^a-z]/'` | [ep203-awk-negclass.mp4](ep203-awk-negclass.mp4) |
 | 204 | Why did my reverse sort put 10 after 2 and 9? | `printf '10\n9\n2\n' | sort -r` | [ep204-sort-reverse.mp4](ep204-sort-reverse.mp4) |
 | 205 | How do I compare two numbers in the shell to run code conditionally? | `test 3 -lt 5 && echo yes || echo no` | [ep205-test-lt.mp4](ep205-test-lt.mp4) |
+| 206 | How do I write a one-line if/else (ternary) inside shell arithmetic? | `echo $((7 > 5 ? 1 : 0))` | [ep206-ternary.mp4](ep206-ternary.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
