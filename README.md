@@ -239,4 +239,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 225 | How do I replace a character in a variable with bash expansion? | `set -- hello; echo ${1/l/L}` | [ep225-replace.mp4](ep225-replace.mp4) |
 | 226 | How do I supply a default value if a variable is unset? | `set -- a; echo ${2:-default}` | [ep226-default.mp4](ep226-default.mp4) |
 | 227 | How do I test if a string matches a pattern with [[ ]]? | `[[ hello == h* ]] && echo yes || echo no` | [ep227-patmatch.mp4](ep227-patmatch.mp4) |
+| 228 | How do I match a string against a regular expression? | `[[ hello =~ ^h.*o$ ]] && echo yes || echo no` | [ep228-regex.mp4](ep228-regex.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
