@@ -234,4 +234,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 220 | How do I pass arguments to a command in a string with sh -c? | `sh -c 'echo $1 $2' sh hello world` | [ep220-positional-args.mp4](ep220-positional-args.mp4) |
 | 221 | How do I replace the positional params and count them? | `set -- a b c; echo $#` | [ep221-set-count.mp4](ep221-set-count.mp4) |
 | 222 | How do I print all the positional params at once? | `set -- a b c; echo $@` | [ep222-set-all.mp4](ep222-set-all.mp4) |
+| 223 | How do I take a substring of a variable with bash expansion? | `set -- hello world; echo ${1:0:3}` | [ep223-substr.mp4](ep223-substr.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
