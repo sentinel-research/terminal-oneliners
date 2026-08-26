@@ -220,4 +220,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 206 | How do I write a one-line if/else (ternary) inside shell arithmetic? | `echo $((7 > 5 ? 1 : 0))` | [ep206-ternary.mp4](ep206-ternary.mp4) |
 | 207 | How do I get the file name of several paths at once? | `basename -a a/b/x.sh c/d/y.sh` | [ep207-basename-a.mp4](ep207-basename-a.mp4) |
 | 208 | How do I print only the first two columns (fields) of each line? | `printf 'aa bb cc\ndd ee\n' | awk '{print $1, $2}'` | [ep208-awk-fields.mp4](ep208-awk-fields.mp4) |
+| 209 | How do I read input into variables one word at a time? | `read x y <<< 'aa bb'; echo $y` | [ep209-read-var.mp4](ep209-read-var.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
