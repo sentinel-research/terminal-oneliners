@@ -257,4 +257,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 243 | How do I print a specific range of characters from a string? | `printf 'hello\n' | cut -c3-5` | [ep243-cut-c35.mp4](ep243-cut-c35.mp4) |
 | 244 | How do I extract non-adjacent columns from a delimited line? | `printf 'a,b,c\n' | cut -d, -f1,3` | [ep244-cut-f13.mp4](ep244-cut-f13.mp4) |
 | 245 | How do I print a specific field from a line using awk? | `printf 'abc def ghi\n' | awk '{print $3}'` | [ep245-awk-f3.mp4](ep245-awk-f3.mp4) |
+| 246 | How do I print a field only when it is guaranteed to exist in awk? | `printf 'one two three four\n' | awk 'NF>2 {print $3}'` | [ep246-awk-nf.mp4](ep246-awk-nf.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
