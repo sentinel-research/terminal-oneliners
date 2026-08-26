@@ -224,4 +224,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 210 | How do I keep only the lines that have exactly N fields? | `printf 'a b c\nd e\nf g h i\n' | awk 'NF==3'` | [ep210-awk-nf3.mp4](ep210-awk-nf3.mp4) |
 | 211 | How do I keep only lines that contain at least one letter? | `printf 'a1\nB2\n34\n' | awk '/[a-zA-Z]/'` | [ep211-awk-combined-class.mp4](ep211-awk-combined-class.mp4) |
 | 212 | How do I split awk fields on a colon instead of spaces? | `printf 'name:alice\nname:bob\n' | awk -F: '{print $2}'` | [ep212-awk-dash-f.mp4](ep212-awk-dash-f.mp4) |
+| 213 | How do I convert text to UPPERCASE with tr? | `printf 'aZ9' | tr 'a-z' 'A-Z'` | [ep213-tr-uppercase.mp4](ep213-tr-uppercase.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
