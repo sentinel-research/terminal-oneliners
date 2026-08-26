@@ -256,4 +256,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 242 | How do I extract a specific field (column) from a delimited string? | `echo 'hello world' | cut -d' ' -f2` | [ep242-cut-f2.mp4](ep242-cut-f2.mp4) |
 | 243 | How do I print a specific range of characters from a string? | `printf 'hello\n' | cut -c3-5` | [ep243-cut-c35.mp4](ep243-cut-c35.mp4) |
 | 244 | How do I extract non-adjacent columns from a delimited line? | `printf 'a,b,c\n' | cut -d, -f1,3` | [ep244-cut-f13.mp4](ep244-cut-f13.mp4) |
+| 245 | How do I print a specific field from a line using awk? | `printf 'abc def ghi\n' | awk '{print $3}'` | [ep245-awk-f3.mp4](ep245-awk-f3.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
