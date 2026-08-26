@@ -242,4 +242,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 228 | How do I match a string against a regular expression? | `[[ hello =~ ^h.*o$ ]] && echo yes || echo no` | [ep228-regex.mp4](ep228-regex.mp4) |
 | 229 | How do I print a number in octal? | `printf '%o\n' 8` | [ep229-octal.mp4](ep229-octal.mp4) |
 | 230 | How do I prompt for input while keeping stdout clean? | `read -p "q> " x <<< "abc"; echo "$x"` | [ep230-read-p.mp4](ep230-read-p.mp4) |
+| 231 | How do I check that a string does NOT match a pattern? | `[[ hello != h* ]] && echo yes || echo no` | [ep231-negate.mp4](ep231-negate.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
