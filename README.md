@@ -230,4 +230,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 216 | How do I print a number in hex? | `printf '%x\n' 255` | [ep216-printf-hex.mp4](ep216-printf-hex.mp4) |
 | 217 | How do I right-justify a number in a fixed-width field (space pad)? | `printf '%5d\n' 42` | [ep217-printf-justify.mp4](ep217-printf-justify.mp4) |
 | 218 | How do I change the separator awk puts between printed fields? | `printf 'a b\nc d\n' | awk -v OFS='-' '{print $1, $2}'` | [ep218-awk-ofs.mp4](ep218-awk-ofs.mp4) |
+| 219 | How do I check if two numbers are equal with test? | `test 3 -eq 3 && echo yes || echo no` | [ep219-test-eq.mp4](ep219-test-eq.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
