@@ -228,4 +228,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 214 | How do I zero-pad a number to a fixed width? | `printf '%03d\n' 42` | [ep214-printf-pad.mp4](ep214-printf-pad.mp4) |
 | 215 | How do I round a number to 2 decimals in a fixed-width field? | `printf '%5.2f\n' 3.14159` | [ep215-printf-float.mp4](ep215-printf-float.mp4) |
 | 216 | How do I print a number in hex? | `printf '%x\n' 255` | [ep216-printf-hex.mp4](ep216-printf-hex.mp4) |
+| 217 | How do I right-pad a number in a fixed-width field? | `printf '%5d\n' 42` | [ep217-printf-justify.mp4](ep217-printf-justify.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
