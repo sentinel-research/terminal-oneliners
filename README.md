@@ -214,4 +214,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 200 | How do I keep only the lines that start with a lowercase letter? | `printf 'A\nb\nC\n' | awk '/^[a-z]/'` | [ep200-awk-lowercase.mp4](ep200-awk-lowercase.mp4) |
 | 201 | How do I keep only the lines that start with an uppercase letter? | `printf 'a\nB\nC\n' | awk '/^[A-Z]/'` | [ep201-awk-uppercase.mp4](ep201-awk-uppercase.mp4) |
 | 202 | Why did my awk filter match EVERY line, even the ones without the letter? | `printf 'x\ny\nz\n' | awk '/x*/'` | [ep202-awk-star.mp4](ep202-awk-star.mp4) |
+| 203 | How do I match a line that does NOT start with a lowercase letter? | `printf 'A\nb\n1\n$c\n' | awk '/^[^a-z]/'` | [ep203-awk-negclass.mp4](ep203-awk-negclass.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
