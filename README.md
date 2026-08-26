@@ -252,4 +252,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 229 | How do I print a number in octal? | `printf '%o\n' 8` | [ep229-octal.mp4](ep229-octal.mp4) |
 | 230 | How do I prompt for input while keeping stdout clean? | `read -p "q> " x <<< "abc"; echo "$x"` | [ep230-read-p.mp4](ep230-read-p.mp4) |
 | 231 | How do I check that a string does NOT match a pattern? | `[[ hello != h* ]] && echo yes || echo no` | [ep231-negate.mp4](ep231-negate.mp4) |
+| 241 | How do I compute a running sum and print it once at the end with awk? | `seq 3 | awk '{s+=$1} END {print s}'` | [ep241-awk-end.mp4](ep241-awk-end.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
