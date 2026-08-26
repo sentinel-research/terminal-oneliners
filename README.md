@@ -240,4 +240,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 226 | How do I supply a default value if a variable is unset? | `set -- a; echo ${2:-default}` | [ep226-default.mp4](ep226-default.mp4) |
 | 227 | How do I test if a string matches a pattern with [[ ]]? | `[[ hello == h* ]] && echo yes || echo no` | [ep227-patmatch.mp4](ep227-patmatch.mp4) |
 | 228 | How do I match a string against a regular expression? | `[[ hello =~ ^h.*o$ ]] && echo yes || echo no` | [ep228-regex.mp4](ep228-regex.mp4) |
+| 229 | How do I print a number in octal? | `printf '%o\n' 8` | [ep229-octal.mp4](ep229-octal.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
