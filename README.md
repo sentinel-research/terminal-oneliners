@@ -287,4 +287,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 273 | How do I replace only the Nth occurrence of a word (not all)? | `echo 'HELLO' | sed 's/L/-/2'` | [ep273-sed-nth.mp4](ep273-sed-nth.mp4) |
 | 274 | How do I replace a word no matter how it is capitalized? | `echo 'Hello WORLD' | sed 's/world/earth/I'` | [ep274-sed-ignore.mp4](ep274-sed-ignore.mp4) |
 | 275 | How do I replace a whole set of characters (like every vowel)? | `printf 'cat dog rat\n' | sed 's/[aeiou]/*/g'` | [ep275-sed-class.mp4](ep275-sed-class.mp4) |
+| 276 | How do I keep only the digits (delete everything else)? | `echo '555-867-5309' | sed 's/[^0-9]//g'` | [ep276-sed-complement.mp4](ep276-sed-complement.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
