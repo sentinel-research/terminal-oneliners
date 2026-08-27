@@ -264,4 +264,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 250 | MILESTONE — How do I transform every line with awk and keep just the first result? | `seq 10 | awk '{print 10-$1}' | head -1` | [ep250-awk-transform-head.mp4](ep250-awk-transform-head.mp4) |
 | 251 | How do I double every line and keep only the last result? | `seq 10 | awk '{print $1*2}' | tail -1` | [ep251-awk-double-tail.mp4](ep251-awk-double-tail.mp4) |
 | 252 | How do I print a field in lowercase with awk? | `echo 'Hello World' | awk '{print tolower($1)}'` | [ep252-awk-tolower.mp4](ep252-awk-tolower.mp4) |
+| 253 | How do I print a field in UPPERCASE with awk? | `echo 'hello world' | awk '{print toupper($1)}'` | [ep253-awk-toupper.mp4](ep253-awk-toupper.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
