@@ -274,4 +274,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 260 | How do I see the raw hex bytes behind a string? (MILESTONE) | `printf 'CAT\n' | od -An -tx1` | [ep260-od-hex.mp4](ep260-od-hex.mp4) |
 | 261 | How do I pass a whole stream of lines as arguments to a command? | `seq 4 | xargs echo joined` | [ep261-xargs-args.mp4](ep261-xargs-args.mp4) |
 | 262 | How do I prepend a prefix to every line of a stream? | `seq 2 | sed 's/^/row:/'` | [ep262-sed-prefix.mp4](ep262-sed-prefix.mp4) |
+| 263 | How do I append a suffix to every line of a stream? | `seq 2 | sed 's/$/ end/'` | [ep263-sed-append.mp4](ep263-sed-append.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
