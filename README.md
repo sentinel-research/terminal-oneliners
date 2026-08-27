@@ -278,4 +278,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 264 | How do I swap or reorder the columns of a line? | `echo '2 apples' | awk '{print $2, $1}'` | [ep264-awk-swap.mp4](ep264-awk-swap.mp4) |
 | 265 | How do I sort lines and join them into one CSV line? | `printf 'b\nc\na\n' | sort | paste -sd, -` | [ep265-sort-paste.mp4](ep265-sort-paste.mp4) |
 | 266 | How do I pick just the 2nd and 4th columns of a line? | `echo '3 apples 5 pears' | awk '{print $2, $4}'` | [ep266-awk-cols.mp4](ep266-awk-cols.mp4) |
+| 267 | How do I print only lines whose first field is a number greater than 7? | `seq 10 | awk '$1>7'` | [ep267-awk-filter.mp4](ep267-awk-filter.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
