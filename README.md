@@ -281,4 +281,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 267 | How do I print only lines whose first field is a number greater than 7? | `seq 10 | awk '$1>7'` | [ep267-awk-filter.mp4](ep267-awk-filter.mp4) |
 | 268 | How do I keep only the rows whose 2nd column equals a value? | `printf 'x 5\ny 3\nz 9\n' | awk '$2=="3"'` | [ep268-awk-match.mp4](ep268-awk-match.mp4) |
 | 269 | How do I keep only the rows whose first column is divisible by 3? | `seq 12 | awk '$1%3==0'` | [ep269-awk-mod.mp4](ep269-awk-mod.mp4) |
+| 270 | How do I delete every occurrence of a character? (MILESTONE) | `echo 'hello world' | sed 's/o//g'` | [ep270-sed-delete.mp4](ep270-sed-delete.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
