@@ -266,4 +266,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 252 | How do I print a field in lowercase with awk? | `echo 'Hello World' | awk '{print tolower($1)}'` | [ep252-awk-tolower.mp4](ep252-awk-tolower.mp4) |
 | 253 | How do I print a field in UPPERCASE with awk? | `echo 'hello world' | awk '{print toupper($1)}'` | [ep253-awk-toupper.mp4](ep253-awk-toupper.mp4) |
 | 254 | How do I compute a power (like 2^N) inside an awk END block? | `seq 4 | awk 'END{print 2^NR}'` | [ep254-awk-pow.mp4](ep254-awk-pow.mp4) |
+| 255 | How do I print just the Nth line of input with awk? | `seq 10 | awk 'NR==7'` | [ep255-awk-nr7.mp4](ep255-awk-nr7.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
