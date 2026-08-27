@@ -290,4 +290,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 276 | How do I keep only the digits (delete everything else)? | `echo '555-867-5309' | sed 's/[^0-9]//g'` | [ep276-sed-complement.mp4](ep276-sed-complement.mp4) |
 | 277 | Why does my sed dot pattern replace the wrong characters? | `printf 'a.b.c\n' | sed 's/\./_/g'` | [ep277-sed-escape.mp4](ep277-sed-escape.mp4) |
 | 278 | How do I delete a specific line from a stream? | `seq 5 | sed '2d'` | [ep278-sed-del.mp4](ep278-sed-del.mp4) |
+| 279 | How do I delete every line that contains a word? | `printf 'cat\ndog\ncow\n' | sed '/cow/d'` | [ep279-sed-patdel.mp4](ep279-sed-patdel.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
