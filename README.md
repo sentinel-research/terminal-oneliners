@@ -283,4 +283,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 269 | How do I keep only the rows whose first column is divisible by 3? | `seq 12 | awk '$1%3==0'` | [ep269-awk-mod.mp4](ep269-awk-mod.mp4) |
 | 270 | How do I delete every occurrence of a character? (MILESTONE) | `echo 'hello world' | sed 's/o//g'` | [ep270-sed-delete.mp4](ep270-sed-delete.mp4) |
 | 271 | How do I trim the leading spaces off the start of a line? | `echo '   padded' | sed 's/^ *//'` | [ep271-sed-trim.mp4](ep271-sed-trim.mp4) |
+| 272 | How do I trim spaces from BOTH ends of a line? | `echo '  both  ' | sed 's/^ *//; s/ *$//'` | [ep272-sed-trim2.mp4](ep272-sed-trim2.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
