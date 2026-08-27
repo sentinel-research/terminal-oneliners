@@ -262,4 +262,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 248 | How do I show only the first N lines of a stream? | `seq 10 | head -n 3` | [ep248-head-n3.mp4](ep248-head-n3.mp4) |
 | 249 | How do I count the lines that match a pattern (without printing them)? | `seq 100 | grep -c .` | [ep249-grep-c-dot.mp4](ep249-grep-c-dot.mp4) |
 | 250 | MILESTONE — How do I transform every line with awk and keep just the first result? | `seq 10 | awk '{print 10-$1}' | head -1` | [ep250-awk-transform-head.mp4](ep250-awk-transform-head.mp4) |
+| 251 | How do I double every line and keep only the last result? | `seq 10 | awk '{print $1*2}' | tail -1` | [ep251-awk-double-tail.mp4](ep251-awk-double-tail.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
