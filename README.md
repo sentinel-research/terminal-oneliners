@@ -284,4 +284,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 270 | How do I delete every occurrence of a character? (MILESTONE) | `echo 'hello world' | sed 's/o//g'` | [ep270-sed-delete.mp4](ep270-sed-delete.mp4) |
 | 271 | How do I trim the leading spaces off the start of a line? | `echo '   padded' | sed 's/^ *//'` | [ep271-sed-trim.mp4](ep271-sed-trim.mp4) |
 | 272 | How do I trim spaces from BOTH ends of a line? | `echo '  both  ' | sed 's/^ *//; s/ *$//'` | [ep272-sed-trim2.mp4](ep272-sed-trim2.mp4) |
+| 273 | How do I replace only the Nth occurrence of a word (not all)? | `echo 'HELLO' | sed 's/L/-/2'` | [ep273-sed-nth.mp4](ep273-sed-nth.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
