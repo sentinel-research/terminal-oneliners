@@ -268,4 +268,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 254 | How do I compute a power (like 2^N) inside an awk END block? | `seq 4 | awk 'END{print 2^NR}'` | [ep254-awk-pow.mp4](ep254-awk-pow.mp4) |
 | 255 | How do I print just the Nth line of input with awk? | `seq 10 | awk 'NR==7'` | [ep255-awk-nr7.mp4](ep255-awk-nr7.mp4) |
 | 256 | How do I keep ONLY the digits out of a mixed string? | `printf 'A1B2C3\n' | tr -cd '0-9'` | [ep256-tr-complement.mp4](ep256-tr-complement.mp4) |
+| 257 | How do I join every line into ONE comma-separated line? | `seq 5 | paste -sd, -` | [ep257-paste-join.mp4](ep257-paste-join.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
