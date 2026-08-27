@@ -269,4 +269,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 255 | How do I print just the Nth line of input with awk? | `seq 10 | awk 'NR==7'` | [ep255-awk-nr7.mp4](ep255-awk-nr7.mp4) |
 | 256 | How do I keep ONLY the digits out of a mixed string? | `printf 'A1B2C3\n' | tr -cd '0-9'` | [ep256-tr-complement.mp4](ep256-tr-complement.mp4) |
 | 257 | How do I join every line into ONE comma-separated line? | `seq 5 | paste -sd, -` | [ep257-paste-join.mp4](ep257-paste-join.mp4) |
+| 258 | How do I slice a fixed byte range (chars 3-6) out of each line? | `printf 'ABCDEFGHIJ\n' | cut -b3-6` | [ep258-cut-bytes.mp4](ep258-cut-bytes.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
