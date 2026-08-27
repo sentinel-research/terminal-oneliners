@@ -276,4 +276,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 262 | How do I prepend a prefix to every line of a stream? | `seq 2 | sed 's/^/row:/'` | [ep262-sed-prefix.mp4](ep262-sed-prefix.mp4) |
 | 263 | How do I append a suffix to every line of a stream? | `seq 2 | sed 's/$/ end/'` | [ep263-sed-append.mp4](ep263-sed-append.mp4) |
 | 264 | How do I swap or reorder the columns of a line? | `echo '2 apples' | awk '{print $2, $1}'` | [ep264-awk-swap.mp4](ep264-awk-swap.mp4) |
+| 265 | How do I sort lines and join them into one CSV line? | `printf 'b\nc\na\n' | sort | paste -sd, -` | [ep265-sort-paste.mp4](ep265-sort-paste.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
