@@ -286,4 +286,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 272 | How do I trim spaces from BOTH ends of a line? | `echo '  both  ' | sed 's/^ *//; s/ *$//'` | [ep272-sed-trim2.mp4](ep272-sed-trim2.mp4) |
 | 273 | How do I replace only the Nth occurrence of a word (not all)? | `echo 'HELLO' | sed 's/L/-/2'` | [ep273-sed-nth.mp4](ep273-sed-nth.mp4) |
 | 274 | How do I replace a word no matter how it is capitalized? | `echo 'Hello WORLD' | sed 's/world/earth/I'` | [ep274-sed-ignore.mp4](ep274-sed-ignore.mp4) |
+| 275 | How do I replace a whole set of characters (like every vowel)? | `printf 'cat dog rat\n' | sed 's/[aeiou]/*/g'` | [ep275-sed-class.mp4](ep275-sed-class.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
