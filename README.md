@@ -298,4 +298,5 @@ one-line punchline. 1080p, ~20s, silent (the on-screen text carries the content)
 | 284 | How do I insert a new line after a matching line? | `printf 'red\ngreen\nblue\n' | sed '/red/a MATCHED'` | [ep284-sed-append.mp4](ep284-sed-append.mp4) |
 | 285 | How do I insert a new line BEFORE a matching line? | `printf 'red\ngreen\nblue\n' | sed '/green/i BEFORE IT'` | [ep285-sed-insert.mp4](ep285-sed-insert.mp4) |
 | 286 | What does & mean in a sed replacement? | `echo 'x123y45z' | sed 's/[0-9][0-9]*/#&/g'` | [ep286-sed-backref.mp4](ep286-sed-backref.mp4) |
+| 287 | How do I split one line into two with sed? | `echo 'abc' | sed 's/b/\n&/'` | [ep287-sed-nbreak.mp4](ep287-sed-nbreak.mp4) |
 > Also being posted to YouTube Shorts (channel pending Google cred).
